@@ -5,6 +5,11 @@
       "version": "1.0.0",
       "description": "API for managing products and carts in a grocery store."
     },
+    "servers": [
+    {
+      "url": "http://localhost:8080/"
+    }
+  ],
     "paths": {
       "/products": {
         "get": {

@@ -109,12 +109,12 @@
             "promotions": {
               "type": "array",
               "items": {
-                "$ref": "#/components/schemas/Promotion"
+                "$ref": "#/components/schemas/Cupom"
               }
             }
           }
         },
-        "Promotion": {
+        "Cupom": {
           "type": "object",
           "properties": {
             "id": {
@@ -129,10 +129,10 @@
             "amount": {
               "type": "integer"
             },
-            "requiredQty": {
+            "required_qty": {
               "type": "integer"
             },
-            "freeQty": {
+            "free_qty": {
               "type": "integer"
             }
           }
